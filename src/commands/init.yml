@@ -12,7 +12,7 @@ parameters:
     default: GOOGLE_COMPUTE_ZONE
   google-project-id:
     description: Required environment variable. The Google project ID to connect with via the gcloud CLI.
-    type: env_var_name
+    type: string
     default: GOOGLE_PROJECT_ID
 steps:
   - gcp-cli/install
